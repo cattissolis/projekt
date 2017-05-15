@@ -1,4 +1,4 @@
-<h1>Projkt</h1>;  
+<h1>Projekt MVC </h1>
 
 Utbildning: Webbutveckling inom e-handel <br> 
 Klass: WIEG16 <br> 
