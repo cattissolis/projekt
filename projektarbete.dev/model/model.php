@@ -7,7 +7,9 @@ class Model
     public function __construct(Database $db) {
         $this->db = $db;
     }
-
+    // i model.php använder jag mig av public functions som var i controller för att det måste vara samma 
+    //för att det ska kopplas. Här bestämmer jag vad functionerna ska göra med hjälp av sql-quieres. Beroende på
+    // vad funktionen ska göra har de olika SQL-quieres och ser likadana ut. 
    public function getAllDjur()
    {
        $get_stm = $this->db->prepare('SELECT * FROM `djur`');
@@ -38,8 +40,9 @@ class Model
         $djur->setId($id);
         return $success;
     }
-    
+           
 }
+
 
 
 ?>

@@ -1,4 +1,5 @@
 <?php
+//databas koppling
 return [
    'db_type' => 'mysql',
    'db_host' => 'localhost',
