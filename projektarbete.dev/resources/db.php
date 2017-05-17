@@ -1,5 +1,5 @@
 <?php
-
+//hämtar all information från databasen 
 class Database extends PDO
 {
    function __construct($config)

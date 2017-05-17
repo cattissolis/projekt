@@ -1,5 +1,5 @@
 <?php
-
+//Get hämtar från databasen och Set "sätter" ett nytt värde, (lägger till ett djur) 
 class Djur {
 
     private $id;
